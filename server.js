@@ -37,7 +37,7 @@ var routes = require("./controllers/controller.js");
 
 app.use("/", routes);
 
-mongoose.connect("mongodb://localhost/news-scraper");
+mongoose.connect("mongodb://local:root@ds125628.mlab.com:25628/heroku_tqvqbh0n");
 
 var db = mongoose.connection;
 
